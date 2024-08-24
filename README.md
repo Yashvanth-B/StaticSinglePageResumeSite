@@ -1,2 +1,2 @@
 # My_Site
-Personal Single Page Web Page
+A static, single-page resume portfolio website crafted with HTML and CSS.
