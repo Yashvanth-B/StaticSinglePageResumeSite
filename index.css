@@ -1,0 +1,215 @@
+.hh {
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  padding-left: 70px;
+  width: 100%;
+  display: inline-block;
+  background-color: slateblue;
+  position: fixed;
+  color: rgb(202, 185, 185);
+}
+
+#bar h2 {
+  color: white;
+}
+
+.nav {
+  margin: 0px;
+  padding: 0px 40px;
+  border: 0px;
+  display: inline-block;
+  position: fixed;
+  top: 70px;
+  right: 0px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.nav a {
+  margin-right: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: aqua;
+  position: relative;
+  bottom: 5px;
+}
+
+#bar h2:hover {
+  color: aqua;
+  transform: 3s;
+}
+
+.gmail_link {
+  color: white;
+}
+
+.gmail_link:hover {
+  color: aqua;
+  font-weight: bold;
+}
+
+.career {
+  position: relative;
+  padding-top: 170px;
+  height: 450px;
+}
+.career h1 {
+  display: block;
+  margin: 30px;
+}
+.career h1 span {
+  color: blueviolet;
+}
+.career h1 span:hover {
+  color: aqua;
+}
+.career p {
+  margin: 40px;
+  line-height: 40px;
+  width: 750px;
+  display: inline-block;
+}
+.career_image {
+  position: absolute;
+  right: 90px;
+  margin-top: 60px;
+}
+.career_content {
+  float: left;
+  clear: both;
+}
+
+.academics_link {
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 25px;
+  color: white;
+  background-color: blueviolet;
+  position: relative;
+  font-size: 18px;
+}
+.academics_link:hover {
+  font-weight: bold;
+  box-shadow: 10px 0 50px blueviolet;
+}
+
+.aboutme {
+  padding-bottom: 50px;
+  padding-top: 150px;
+  height: 500px;
+}
+.about_image {
+  position: absolute;
+  left: 90px;
+}
+.about_content {
+  float: right;
+  clear: both;
+  margin-right: 180px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.aboutme h1 {
+  color: blueviolet;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aboutme h3 span {
+  font-weight: bold;
+}
+
+.aboutme h3 {
+  font-weight: normal;
+}
+.score {
+  font-style: italic;
+  font-size: small;
+  color: blueviolet;
+}
+
+.score:hover {
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 50px;
+  box-shadow: 10px 0 50px blueviolet;
+}
+
+.skills {
+  position: relative;
+  height: 600px;
+  padding-top: 160px;
+}
+.skills_image {
+  position: absolute;
+  right: 0px;
+  margin-right: 200px;
+}
+.skills_content {
+  float: left;
+  clear: both;
+  margin-left: 140px;
+}
+.skills h1 {
+  color: blueviolet;
+  text-align: center;
+  font-weight: bold;
+}
+
+.skills h3 {
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skills li {
+  line-height: 30px;
+}
+
+.extra {
+  padding-bottom: 40px;
+  height: 500px;
+  padding-top: 150px;
+}
+
+.extra h1 {
+  color: blueviolet;
+  text-align: center;
+  font-weight: bold;
+}
+.extra li {
+  margin: 20px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+}
+
+.footer {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  height: 150px;
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+}
+
+.footer h3 {
+  font-size: 10px;
+}
+
+.footer li {
+  list-style: none;
+  margin: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+}
