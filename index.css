@@ -175,20 +175,28 @@
 
 .extra {
   padding-bottom: 40px;
-  height: 500px;
+  height: 950px;
   padding-top: 150px;
 }
 
 .extra h1 {
   color: blueviolet;
-  text-align: center;
+  justify-content: left;
+  margin-left: 60px;
   font-weight: bold;
 }
+
 .extra li {
   margin: 20px;
-  text-align: center;
+  text-align: left;
   display: block;
-  justify-content: center;
+  justify-content: left;
+}
+
+.GitHubLink {
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(141, 56, 232);
 }
 
 .footer {
@@ -212,4 +220,37 @@
 
 .footer a {
   text-decoration: none;
+}
+
+.ProjectTitle {
+  color: #39087a;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.ProjectTechStacks {
+  color: #555;
+  font-size: 1em;
+  margin: 5px 0;
+  font-style: italic;
+}
+
+.ProjectSummary {
+  font-size: 0.95em;
+  line-height: 1.6;
+  background: #f9f9f9;
+  padding: 10px 15px;
+  border-left: 4px solid #8b3bf3;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.ProjectLink a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ProjectLink a:hover {
+  text-decoration: underline;
 }
